@@ -1,0 +1,24 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- Linux Base +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+1. Force delete a folder
+    >>> rm -rf "Folder Name"
+2. Force delete a folder
+    >>> rm -f "Folder Name"
+
+==================================================================== GIT Base ====================================================================
+
+1. How to check that git is installed?
+Ans. >>> Git
+              or
+     >>> Git --version 
+
+2. What is Git ?
+Ans. Git is a VCS [Version Control System]. It is used to save files History/ Ledger of saving files
+
+3. Difference between git and github?
+   Ans:
+        Both Git and Github are different git is a version control system while github is a cloud based hosting services
+        platform that help to manage git repositeries such as Gitlab, BitBucket, SourceForge,launchpad, GitKraken, Codeberg and so on.
+
+Step 1 to start Version control in folder is 
+# Initialize the Folder and its done by 
+    >>> Git init
