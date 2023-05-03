@@ -40,3 +40,18 @@ Step 3 Final step is to commit the changes # Permanently save the Changes
     >>> git stash # To get older details of the files
 # To un stash and come back to pressent time we use pop
     >>> git stash pop
+
+=================================================================== GIT Branch ===================================================================
+
+# Create Branch
+    >>> git branch "Branchname"
+    
+# Delete Branch 
+    >>> git branch -d "branchname"
+
+# Merging a Branch 
+    >>> git merge "branchname"
+
+# Renaming a Branch
+    >>> git branch -m old-name new-name
+
