@@ -19,6 +19,24 @@ Ans. Git is a VCS [Version Control System]. It is used to save files History/ Le
         Both Git and Github are different git is a version control system while github is a cloud based hosting services
         platform that help to manage git repositeries such as Gitlab, BitBucket, SourceForge,launchpad, GitKraken, Codeberg and so on.
 
-Step 1 to start Version control in folder is 
-# Initialize the Folder and its done by 
+Step 1 to start Version control (Git) in a  folder we need to Initialize a folder 
+# Initialization of the Folder is done by 
     >>> Git init
+Step 2 Adding Files to the Staging area
+    >>> git add "Filename.extension"
+                    or
+    >>> git add .
+Step 3 Final step is to commit the changes # Permanently save the Changes
+# It is done by
+    >>> git commit -m "Your Messsge relateable to the Work"
+
+
+=================================================================== GIT Extras ===================================================================
+
+# To see the History of the Project commits
+    >>> git log
+# to get all previous things of that time we use stash by reseting wiyh Hashcode
+    >>> git reset "Hashcode"
+    >>> git stash # To get older details of the files
+# To un stash and come back to pressent time we use pop
+    >>> git stash pop
