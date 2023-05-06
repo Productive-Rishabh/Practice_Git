@@ -22,13 +22,38 @@ Ans. Git is a VCS [Version Control System]. It is used to save files History/ Le
 Step 1 to start Version control (Git) in a  folder we need to Initialize a folder 
 # Initialization of the Folder is done by 
     >>> Git init
+
 Step 2 Adding Files to the Staging area
     >>> git add "Filename.extension"
                     or
     >>> git add .
+
 Step 3 Final step is to commit the changes # Permanently save the Changes
 # It is done by
     >>> git commit -m "Your Messsge relateable to the Work"
+
+# ==========================================================================================================
+
+# Setting up name
+   >>> git config --global user.name "User Name"
+
+# ==========================================================================================================
+
+# Setting up email
+   >>> git config --global user.email "User Email ID"
+
+# ==========================================================================================================
+# Setting name and email directly from vim [Alternative Option]
+   >>> git config --global --edit
+
+# exiting vim editor 
+       type ":wq" and press enter
+
+# ============================================ Checking Area =================================================
+
+    >>> git config --global user.name
+    >>> git config --global user.email
+
 
 
 =================================================================== GIT Extras ===================================================================
@@ -40,12 +65,15 @@ Step 3 Final step is to commit the changes # Permanently save the Changes
     >>> git stash # To get older details of the files
 # To un stash and come back to pressent time we use pop
     >>> git stash pop
+# Removing a file from Staging area
+    >>> git rm -r --cached "filename"
+    >>> git rm -r --cached . # Works well
 
 =================================================================== GIT Branch ===================================================================
 
 # Create Branch
     >>> git branch "Branchname"
-    
+
 # Delete Branch 
     >>> git branch -d "branchname"
 
