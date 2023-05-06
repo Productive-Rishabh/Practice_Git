@@ -67,6 +67,8 @@ Step 3 Final step is to commit the changes # Permanently save the Changes
     >>> git stash pop
 # Removing a file from Staging area
     >>> git rm -r --cached "filename"
+    >>> git restore --staged .
+    >>> git restore --staged "Filename.extension"
     >>> git rm -r --cached . # Works well
 
 =================================================================== GIT Branch ===================================================================
