@@ -112,4 +112,5 @@ Step 3 Final step is to commit the changes # Permanently save the Changes
     >>> git branch -M master
     >>> git push -u origin master
 
-    >>> git clone "url" # 
+    >>> git clone "url" # Copy of the Folder from github platform to local PC
+    >>> git remote add upstrean "URL" # Upstream is name given by convention to a file or project which is Forked we can give any name
