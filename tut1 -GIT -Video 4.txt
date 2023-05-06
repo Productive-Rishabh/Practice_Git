@@ -67,6 +67,7 @@ Step 3 Final step is to commit the changes # Permanently save the Changes
     >>> git stash # To get older details of the files
 # To un stash and come back to pressent time we use pop
     >>> git stash pop
+    >>> git stash clear # To permanently delete the Files in staging Area
 # Removing a file from Staging area
     >>> git rm -r --cached "filename"
     >>> git restore --staged .
