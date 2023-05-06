@@ -60,8 +60,10 @@ Step 3 Final step is to commit the changes # Permanently save the Changes
 
 # To see the History of the Project commits
     >>> git log
-# to get all previous things of that time we use stash by reseting wiyh Hashcode
+# to get all previous things of that time we use stash by reseting with Hashcode
     >>> git reset "Hashcode"
+                or
+    >>> git checkout "Hashcode"
     >>> git stash # To get older details of the files
 # To un stash and come back to pressent time we use pop
     >>> git stash pop
@@ -72,12 +74,15 @@ Step 3 Final step is to commit the changes # Permanently save the Changes
     >>> git rm -r --cached . # Works well
 
 =================================================================== GIT Branch ===================================================================
+6. Tasks in Branch
+# Checking in which branch we are now
+>>> git branch
 
 # Create Branch
     >>> git branch "Branchname"
 
-# Delete Branch 
-    >>> git branch -d "branchname"
+# Creating and Moving to the new branch altogether
+   >>> git checkout -b "Branchname" # Note: [It will automatically move to branch after creating it]
 
 # Merging a Branch 
     >>> git merge "branchname"
@@ -85,3 +90,5 @@ Step 3 Final step is to commit the changes # Permanently save the Changes
 # Renaming a Branch
     >>> git branch -m old-name new-name
 
+# Delete Branch 
+    >>> git branch -d "branchname"
