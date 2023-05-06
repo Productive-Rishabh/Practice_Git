@@ -95,7 +95,7 @@ Step 3 Final step is to commit the changes # Permanently save the Changes
     >>> git branch -d "branchname"
 
 
-=================================================================== GIT HUB =======================================================================
+!=================================================================== GIT HUB =======================================================================
 
 # Attaching GITHUB URL to the Project Folder
     >>> git remote add origin "URL" # add means we are adding a link of our project folder to GITHUB and origin is name by convention we can give any name
@@ -106,8 +106,11 @@ Step 3 Final step is to commit the changes # Permanently save the Changes
 # Undo attaching GITHUB URL to the Project Folder
     >>> git remote remove origin # remove means we are removing the link of our project folder from GITHUB and origin is name by convention we can give any name
 
-=================================================================== GITHUB Commands =======================================================================
+!=================================================================== GITHUB Commands =======================================================================
 
-    git remote add origin https://github.com/Productive-Rishabh/Git_practice.git
-    git branch -M master
-    git push -u origin master
+    >>> git remote add origin https://github.com/Productive-Rishabh/Git_practice.git
+    >>> git branch -M master
+    >>> git push -u origin master
+
+    >>> git clone "url" # Copy of the Folder from github platform to local PC
+    >>> git remote add upstrean "URL" # Upstream is name given by convention to a file or project which is Forked we can give any name
